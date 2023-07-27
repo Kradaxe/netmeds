@@ -1,0 +1,335 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* Navigation bar */
+
+
+
+.logo{
+
+    height: 75px;
+    padding: 2px;
+    border: 20px, coral;
+    float: left;
+    margin-left: 0px;
+
+}
+.navigation{
+
+    display: flex;
+}
+
+.navi{
+    flex: 1;
+    text-align: right;  
+    
+}
+
+.navi ul{
+
+    display: inline;
+    list-style-type: none;
+
+}
+
+.navi ul li{
+
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 15px;
+    padding: 10px;
+    
+
+}
+
+
+a{
+
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+}
+
+.container{
+
+   
+    max-width: 1500px;
+    
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+
+
+/* Introduction and explore */
+
+
+
+
+.col {
+
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+.row {
+
+    flex-basis: 50%;
+    min-width: 300px;
+    padding-bottom: 10px;
+    margin-top: -250px;
+
+
+}
+
+.row img{
+
+    max-width: 100%;
+    padding: 100px 5px;
+
+
+}
+
+.row h1{
+
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+
+}
+
+.row p{
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.btn{
+
+    
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    
+
+
+
+}
+
+.btn:hover {
+
+    transition: transform 0s;
+    background: #8c1212;
+
+}
+
+.header{
+
+    background: radial-gradient(#ffffff, #3a9684);
+    
+
+}
+
+.cart{
+
+    margin-top: 18px;
+    
+
+
+}
+
+.cart:hover{
+
+    transition: transform 0s;
+    background:#8c1212;
+
+
+}
+
+
+
+/* Health convcerns */
+
+
+
+
+.text2{
+
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: -60px;
+
+}
+
+.categories{
+
+   
+    margin-bottom: px;
+    flex-wrap: wrap;
+    background: radial-gradient(#fff, #ffd6d6);
+    
+
+}
+
+.col{
+
+ margin-top: 100px;
+margin-left: 100px;
+
+ 
+ 
+
+}
+
+.row2{
+
+    background-color: #fff;
+    padding: 10px;
+    flex-basis: 19%;
+    min-width: 200px;
+    margin-bottom: 50px ;
+    margin-left: -100px;
+    border-radius: 10px;
+    
+
+}
+
+.row2 img{
+    
+    float: center;
+    width: 40%;
+    border-radius: 10px ;
+    margin: 20px;
+    margin-left: 60px;
+
+}
+
+.row2 h1{
+
+    margin-left: 20px;
+
+}
+
+.title{
+
+ margin-top: -30px;
+ text-align: center;
+ color: rgb(255, 0, 76);
+}
+
+
+/* Frequently bought */
+
+
+.title::after{
+
+    content:"";
+    background: #8c1212;
+    width: 800px;
+    height: 5px;   
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.title2{
+
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(255, 0, 76);
+   }
+
+
+.imghc{
+
+    margin-left: 100px;
+   
+    
+
+}
+
+.row2:hover{
+
+    transform: translateY(-10px);
+    transition: transform 0.25s  ;
+
+}
+
+
+/* Footer */
+
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    background: #000000;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 00px;
+    padding: 50px;
+
+}
+
+.footer1{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer h3{
+
+    font-size : 30px;
+    margin-bottom: 35px;
+    margin-top: -35px;
+    
+
+}
+
+.footer p{
+
+    padding: 8px;
+
+
+}
+
+.footer p:hover{
+
+    transition: transform 0.5s;
+    transform: translateY(-2px);
+    background-color: #8c1212;
+    border-radius: 5px;
+
+
+}
+
+
